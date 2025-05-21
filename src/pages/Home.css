@@ -1,0 +1,84 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 20px 20px; /* navbar'dan sonra boşluk */
+  min-height: 100vh;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.profile-img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1); /* biraz daha yumuşak */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.home h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  transition: color 0.3s ease;
+}
+
+.home p {
+  font-size: 1.2rem;
+  max-width: 640px;
+  margin: 0 auto;
+  line-height: 1.6;
+  opacity: 0.9;
+  transition: color 0.3s ease, opacity 0.3s ease;
+}
+
+.highlight {
+  color: var(--primary-color);
+}
+
+/* Responsive Ayarlar */
+@media (max-width: 768px) {
+  .home {
+    padding: 64px 16px 16px;
+  }
+
+  .home h1 {
+    font-size: 2rem;
+  }
+
+  .home p {
+    font-size: 1rem;
+  }
+
+  .profile-img {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home h1 {
+    font-size: 1.6rem;
+  }
+
+  .home p {
+    font-size: 0.95rem;
+  }
+}
