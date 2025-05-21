@@ -1,3 +1,32 @@
+# 🌐 Kişisel Portfolyo Web Sitesi
+
+Bu proje, Ahmet Taner Gümüş'ün kişisel portfolyo web sitesidir. React.js kullanılarak geliştirilmiş olup, mobil uyumlu ve modern bir tasarıma sahiptir. Kullanıcıların hakkımda bilgi alabileceği, yaptığım projeleri inceleyebileceği ve iletişime geçebileceği bölümler içerir.
+
+## 🚀 Teknolojiler
+
+- React.js  
+- Vite / Create React App  
+- CSS / TailwindCSS (varsa)  
+- Git & GitHub  
+- Vercel (deployment)
+
+## 📌 Özellikler
+
+- Scroll ile aktif hale gelen bağlantılar (navbar)  
+- Mobil ve tablet uyumlu tasarım  
+- Işık / Karanlık tema desteği (varsa)  
+- Sosyal medya bağlantıları  
+- Proje ve yetenekler bölümü  
+- İletişim alanı  
+
+## 🔗 Canlı Yayın
+
+👉 [https://portfolio-pi-one-75.vercel.app](https://portfolio-pi-one-75.vercel.app)
+
+## 👨‍💻 Geliştirici
+
+Ahmet Taner Gümüş
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
