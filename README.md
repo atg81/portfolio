@@ -19,7 +19,7 @@ Bu proje, Ahmet Taner Gümüş'ün kişisel portfolyo web sitesidir. React.js ku
 - Proje ve yetenekler bölümü  
 - İletişim alanı  
 
-## 🔗 Canlı Yayın
+## 🔗 Link
 
 👉 [https://portfolio-pi-one-75.vercel.app](https://portfolio-pi-one-75.vercel.app)
 
